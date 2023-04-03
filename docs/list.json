@@ -5,10 +5,9 @@
 		"Manual": {
 
 			"Getting Started": {
-				"Creating a scene": "manual/en/introduction/Creating-a-scene",
 				"Installation": "manual/en/introduction/Installation",
+				"Creating a scene": "manual/en/introduction/Creating-a-scene",
 				"WebGL compatibility check": "manual/en/introduction/WebGL-compatibility-check",
-				"How to run things locally": "manual/en/introduction/How-to-run-things-locally",
 				"Drawing lines": "manual/en/introduction/Drawing-lines",
 				"Creating text": "manual/en/introduction/Creating-text",
 				"Loading 3D models": "manual/en/introduction/Loading-3D-models",
@@ -18,10 +17,10 @@
 			},
 
 			"Next Steps": {
-				"How to update things": "manual/en/introduction/How-to-update-things",
-				"How to dispose of objects": "manual/en/introduction/How-to-dispose-of-objects",
-				"How to create VR content": "manual/en/introduction/How-to-create-VR-content",
-				"How to use post-processing": "manual/en/introduction/How-to-use-post-processing",
+				"Updating resources": "manual/en/introduction/How-to-update-things",
+				"Disposing resources": "manual/en/introduction/How-to-dispose-of-objects",
+				"Creating VR content": "manual/en/introduction/How-to-create-VR-content",
+				"Post-processing": "manual/en/introduction/How-to-use-post-processing",
 				"Matrix transformations": "manual/en/introduction/Matrix-transformations",
 				"Animation system": "manual/en/introduction/Animation-system",
 				"Color management": "manual/en/introduction/Color-management"
@@ -340,6 +339,7 @@
 				"DragControls": "examples/en/controls/DragControls",
 				"FirstPersonControls": "examples/en/controls/FirstPersonControls",
 				"FlyControls": "examples/en/controls/FlyControls",
+				"MapControls": "examples/en/controls/MapControls",
 				"OrbitControls": "examples/en/controls/OrbitControls",
 				"PointerLockControls": "examples/en/controls/PointerLockControls",
 				"TrackballControls": "examples/en/controls/TrackballControls",
@@ -445,10 +445,9 @@
 		"手册": {
 
 			"起步": {
-				"创建场景": "manual/zh/introduction/Creating-a-scene",
 				"安装": "manual/zh/introduction/Installation",
+				"创建场景": "manual/zh/introduction/Creating-a-scene",
 				"WebGL兼容性检查": "manual/zh/introduction/WebGL-compatibility-check",
-				"如何在本地运行Three.js": "manual/zh/introduction/How-to-run-things-locally",
 				"画线": "manual/zh/introduction/Drawing-lines",
 				"创建文字": "manual/zh/introduction/Creating-text",
 				"载入3D模型": "manual/zh/introduction/Loading-3D-models",

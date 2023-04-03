@@ -45,7 +45,7 @@
 </blockquote>
 <p>那么，我们该如何解决这个问题？</p>
 <h2 id="-">基本方法</h2>
-<p>解决办法就是用一张<code class="notranslate" translate="no">Canvas</code>在整个背景中填充视口，并利用一些其他元素来代表每个“虚拟画布”<code class="notranslate" translate="no">(virtual canvas)</code>，即只在一张<code class="notranslate" translate="no">Canvas</code>中加载一个<a href="/docs/#api/zh/constants/Renderer"><code class="notranslate" translate="no">Renderer</code></a>，并为每个<code class="notranslate" translate="no">virtual canvas</code>创建场景<code class="notranslate" translate="no">(Scene)</code>。这样我们只需要确保每个<code class="notranslate" translate="no">virtual canvas</code>正确的位置，THREE.js就会将它们渲染在屏幕上相应的位置。</p>
+<p>解决办法就是用一张<code class="notranslate" translate="no">Canvas</code>在整个背景中填充视口，并利用一些其他元素来代表每个“虚拟画布”<code class="notranslate" translate="no">(virtual canvas)</code>，即只在一张<code class="notranslate" translate="no">Canvas</code>中加载一个<a href="/docs/#api/zh/constants/Renderer"><code class="notranslate" translate="no">Renderer</code></a>，并为每个<code class="notranslate" translate="no">virtual canvas</code>创建一个场景<code class="notranslate" translate="no">(Scene)</code>。这样我们只需要确保每个<code class="notranslate" translate="no">virtual canvas</code>正确的位置，THREE.js就会将它们渲染在屏幕上相应的位置。</p>
 <p>利用这个方法，由于我们只添加了一张<code class="notranslate" translate="no">Canvas</code>，也就仅仅使用了一个<code class="notranslate" translate="no">WebGL contexts</code>，因此不仅解决了资源共享问题，且不会引发WebGL上下文数量限制问题。</p>
 <p>以一个只有两个<a href="/docs/#api/zh/scenes/Scene"><code class="notranslate" translate="no">Scene</code></a>的简单demo为例。首先，创建HTML结构：</p>
 <pre class="prettyprint showlinemods notranslate lang-html" translate="no">&lt;canvas id="c"&gt;&lt;/canvas&gt;
@@ -607,7 +607,7 @@ function addScene(elem, fn) {
         </div>
       </div>
     </div>
-
+  
   <script src="../resources/prettify.js"></script>
   <script src="../resources/lesson.js"></script>
 
