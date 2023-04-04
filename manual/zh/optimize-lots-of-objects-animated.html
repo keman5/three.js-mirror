@@ -5,7 +5,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@threejs">
     <meta name="twitter:title" content="Three.js – 优化对象的同时保持动画效果">
-    <meta property="og:image" content="https://threejs.org/files/share.png">
+    <meta property="og:image" content="https://threejs-docs.netlify.app/files/share.png">
     <link rel="shortcut icon" href="../../files/favicon_white.ico" media="(prefers-color-scheme: dark)">
     <link rel="shortcut icon" href="../../files/favicon.ico" media="(prefers-color-scheme: light)">
 
@@ -111,7 +111,7 @@ loadAll();
     }),
   });
   fileInfos.push({
-    name: '&gt;50% women', 
+    name: '&gt;50% women',
     hueRange: [0.0, 0.4],
     file: makeDiffFile(womenFile, menFile, (women, men) =&gt; {
       return amountGreaterThan(women, men);
@@ -337,7 +337,7 @@ function showFileInfo(fileInfos, fileInfo) {
       self._handleComplete();
       userCompleteFn.call(this, ...args);
     });
-    // 用我们自己的onComplete代替它的, 
+    // 用我们自己的onComplete代替它的,
     // 因此, 如果用户提供回调, 我们可以调用用户的回调
     tween.onComplete = (fn) =&gt; {
       userCompleteFn = fn;
@@ -418,7 +418,7 @@ b)</code> "percent" and you'll see what I mean.</p>
         </div>
       </div>
     </div>
-  
+
   <script src="../resources/prettify.js"></script>
   <script src="../resources/lesson.js"></script>
 

@@ -5,7 +5,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@threejs">
     <meta name="twitter:title" content="Three.js – Optimize Lots of Objects Animated">
-    <meta property="og:image" content="https://threejs.org/files/share.png">
+    <meta property="og:image" content="https://threejs-docs.netlify.app/files/share.png">
     <link rel="shortcut icon" href="../../files/favicon_white.ico" media="(prefers-color-scheme: dark)">
     <link rel="shortcut icon" href="../../files/favicon.ico" media="(prefers-color-scheme: light)">
 
@@ -135,7 +135,7 @@ all the same properties as <code class="notranslate" translate="no">baseFile</co
     }),
   });
   fileInfos.push({
-    name: '&gt;50% women', 
+    name: '&gt;50% women',
     hueRange: [0.0, 0.4],
     file: makeDiffFile(womenFile, menFile, (women, men) =&gt; {
       return amountGreaterThan(women, men);
@@ -351,7 +351,7 @@ and for all the ones we don't want to see to we need to have an influence of 0.<
 <p>We could just set them to 0 or 1 directly but if we did that we wouldn't see any
 animation, it would just snap which would be no different than what we already
 have. We could also write some custom animation code which would be easy but
-because the original webgl globe uses 
+because the original webgl globe uses
 <a href="https://github.com/tweenjs/tween.js/">an animation library</a> let's use the same one here.</p>
 <p>We need to include the library</p>
 <pre class="prettyprint showlinemods notranslate lang-js" translate="no">import * as THREE from 'three';
@@ -486,7 +486,7 @@ b)</code> "percent" and you'll see what I mean.</p>
         </div>
       </div>
     </div>
-  
+
   <script src="../resources/prettify.js"></script>
   <script src="../resources/lesson.js"></script>
 
