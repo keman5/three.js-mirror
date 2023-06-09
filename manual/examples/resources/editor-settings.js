@@ -169,8 +169,8 @@
 
 		const moduleRE = /(import.*?)('|")(.*?)('|")/g;
 
-		// convert https://threejs-docs.netlify.app/build/three.module.js -> https://unpkg.com/three@<version>
-		// convert https://threejs-docs.netlify.app/examples/jsm/.?? -> https://unpkg.com/three@<version>/examples/jsm/.??
+		// convert /build/three.module.js -> https://unpkg.com/three@<version>
+		// convert /examples/jsm/.?? -> https://unpkg.com/three@<version>/examples/jsm/.??
 
 		if ( ! version ) {
 

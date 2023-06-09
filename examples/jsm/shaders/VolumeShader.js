@@ -28,7 +28,7 @@ const VolumeRenderShader1 = {
 
 		void main() {
 				// Prepare transforms to map to "camera view". See also:
-				// https://threejs-docs.netlify.app/docs/#api/renderers/webgl/WebGLProgram
+				// /docs/#api/renderers/webgl/WebGLProgram
 				mat4 viewtransformf = modelViewMatrix;
 				mat4 viewtransformi = inverse(modelViewMatrix);
 
